@@ -47,6 +47,7 @@ function log() {
 
   if (dados[2] > anoAtual) {
     alert("[ERRO] ANO INVÁLIDO")
+    return;
   }
 
   let totali = (anoAtual - (dados[2]))
