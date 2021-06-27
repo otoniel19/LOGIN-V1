@@ -2,144 +2,155 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SOBRE</title>
-    <link rel="stylesheet" href="fontawesome/css/all.css">
-    <style>
-     body {
-       background: url('img/fundo.jpeg');
-       background-repeat: no-repeat;
-       background-size: 4000px;
-     } 
-      #back {
-       float: left;
-       font-size: 150%;
-       border-radius: 15px;
-       padding: 5px;
-       border: none;
-       margin-top: -10px;
-       margin-left: -10px;
-      }
-      #back:hover {
-         transform: scale(1.1)
-      }
-      p {
-        text-align: center;
-      }
-      .menu {
-        background: white;
-        color: black;
-        padding: 5px;
-        border-radius: 15px;
-        width: 390px;
-        height: inherit;
-      }
-      h1 {
-        text-align: center;
-      }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SOBRE</title>
+  <link rel="stylesheet" href="fontawesome/css/all.css">
+  <style>
+    body {
+      background: url('img/fundo.jpeg');
+      background-repeat: no-repeat;
+      background-size: 4000px;
+    }
+    #back {
+      float: left;
+      font-size: 150%;
+      border-radius: 15px;
+      padding: 5px;
+      border: none;
+      margin-top: -10px;
+      margin-left: -10px;
+    }
+    #back:hover {
+      transform: scale(1.1)
+    }
+    p {
+      text-align: center;
+    }
+    .menu {
+      background: white;
+      color: black;
+      padding: 5px;
+      border-radius: 15px;
+      width: 390px;
+      height: inherit;
+    }
+    h1 {
+      text-align: center;
+    }
+  </style>
 </head>
 
 <body onload="all()">
-          <button id="back" onclick="back()"><i class="fas fa-chevron-circle-left"></i></button>
+  <button id="back" onclick="back()"><i class="fas fa-chevron-circle-left"></i></button>
 
-         <div class="menu">
-           
-              <p>Olá Bem Vindo(a)</p>
-              
-              <p id="hora">
-                
-                
-                
-              </p>
-              <br>
-              <div>
-                
-                <p>Este Site Foi Feito Dia: 27-5-2021
-                
-              </div>
-              <br>
-              <p id="dia">
-                
-                
-              </p>
-              <br>
-              <br>
-              <h1>Sobre</h1>
-              <br>
-              <p>Olá Bem Vindo Ou Bem Vinda Hoje Eu Decidir Fazer Este Site 
-              Umas 7:00 Da Manhã E O Resultado Foi Incrível Espero Que Goste
-              Deu Trabalho Fazer O Menu😀
-              </p>
-              <h1>Como Foi Feito?</h1>
-              <br>
-              <p>Bem Eu Usei
-              <center><img id="img" src=""></center>
-                 <p>Como Pode Ver Na Foto Eu Usei As Linguagem De Web Site
-                   HTML-CONTEUDO CSS-ESTILO JS-INTERAÇAO Juntando Esses 3
-                   Temos Esse Resultado Que Eu Gostei Muito
-                </p>
-              </p>
-              <br>
-              <h1>Qual O Objetivo Deste Site?</h1>
-              <br>
-              <p>Bom O Objetivo Era Ser Um Simples Login Mais
-              Acho Que Me Empolguei Um Pouco E Fiz Uma Coisa 
-              Grande Kakakakaka
-              </p>
-              <br>
-              <h1>Como Funciona?</h1>
-              <p>Bom O Funcionamento E Simples Oq Acontece E Que
-                 Você Digita Alí O Javascript Pega Os Dados Agora Se Vc
-                 Não Digitar O Javascript Ele Não Deixa Você Prosseguir Porque
-                 Os Redirecionamento Dos Botões Deste Site São Via Javascript
-                 Continuando... Ele Pega Os Dados Digitados Pelo Usuário E Depois 
-                 Calcula  a Idade Mostra O Nome/senha/email/nascimento/idade E Depois
-                 Ele Joga Os Dados No Lixo Então O Site E 100% Seguro 
-                 Nenhuma Informação Inserida Sera Guardada Obrigado Por Visitar
-                 Meu Site...
-                 </p>
-                 <br>
-                 <h1>Importante</h1>
-                    <p>Deu Muito Trabalho Pra Fazer Este Site 
-                    Por Tanto Espero Que Goste Meus Dedos Doem De Tanto
-                    Codar ugh...
-                 <br>
-                 <h1>Créditos</h1>
-                 <br>
-                 <p>Créditos Ao <a href="https://fontawesome.com">fontawesome</a> pelos Icones Incríveis</p>
-         </div>
-          
-          
-          
-          <script src="fontawesome/js/all.js"></script>
-   
-   
-       <script>
-         function back() {
-           window.open("")
-           
-         }
-         
-         function all() {
-           //aqui serve pra pegar a hora/dia/mes/ano do sistema e exibir na tela
-           let hora = new Date().getHours()
-           let dia = new Date().getDate()
-           let mes = new Date().getMonth()
-             let ano = new Date().getFullYear()
-           let hr = document.getElementById('hora')
-           hr.innerHTML = " Agora São " + hora + " Horas "
-           
-           let total = document.getElementById('dia')
-           total.innerHTML = " Hoje E " + dia + "-" + mes + "-" + ano
-          
+  <div class="menu">
+
+    <p>
+      Olá Bem Vindo(a)
+    </p>
+
+    <p id="hora">
+
+
+
+    </p>
+    <br>
+    <div>
+
+      <p>
+        Este Site Foi Feito Dia: 27-5-2021
+
+      </div>
+      <br>
+      <p id="dia">
+
+
+      </p>
+      <br>
+      <br>
+      <h1>Sobre</h1>
+      <br>
+      <p>
+        Olá Bem Vindo Ou Bem Vinda Hoje Eu Decidir Fazer Este Site
+        Umas 7:00 Da Manhã E O Resultado Foi Incrível Espero Que Goste
+        Deu Trabalho Fazer O Menu😀
+      </p>
+      <h1>Como Foi Feito?</h1>
+      <br>
+      <p>
+        Bem Eu Usei
+        <center><img id="img" src=""></center>
+        <p>
+          Como Pode Ver Na Foto Eu Usei As Linguagem De Web Site
+          HTML-CONTEUDO CSS-ESTILO JS-INTERAÇAO Juntando Esses 3
+          Temos Esse Resultado Que Eu Gostei Muito
+        </p>
+      </p>
+      <br>
+      <h1>Qual O Objetivo Deste Site?</h1>
+      <br>
+      <p>
+        Bom O Objetivo Era Ser Um Simples Login Mais
+        Acho Que Me Empolguei Um Pouco E Fiz Uma Coisa
+        Grande Kakakakaka
+      </p>
+      <br>
+      <h1>Como Funciona?</h1>
+      <p>
+        Bom O Funcionamento E Simples Oq Acontece E Que
+        Você Digita Alí O Javascript Pega Os Dados Agora Se Vc
+        Não Digitar O Javascript Ele Não Deixa Você Prosseguir Porque
+        Os Redirecionamento Dos Botões Deste Site São Via Javascript
+        Continuando... Ele Pega Os Dados Digitados Pelo Usuário E Depois
+        Calcula  a Idade Mostra O Nome/senha/email/nascimento/idade E Depois
+        Ele Joga Os Dados No Lixo Então O Site E 100% Seguro
+        Nenhuma Informação Inserida Sera Guardada Obrigado Por Visitar
+        Meu Site...
+      </p>
+      <br>
+      <h1>Importante</h1>
+      <p>
+        Deu Muito Trabalho Pra Fazer Este Site
+        Por Tanto Espero Que Goste Meus Dedos Doem De Tanto
+        Codar ugh...
+        <br>
+        <h1>Créditos</h1>
+        <br>
+        <p>
+          Créditos Ao <a href="https://fontawesome.com">fontawesome</a> pelos Icones Incríveis
+        </p>
+      </div>
+
+
+
+      <script src="fontawesome/js/all.js"></script>
+
+
+      <script>
+        function back() {
+          window.open("https://otoniel19.github.io/LOGIN-V1/MENU-LOGIN/menu.html")
+
+        }
+
+        function all() {
+          //aqui serve pra pegar a hora/dia/mes/ano do sistema e exibir na tela
+          let hora = new Date().getHours()
+          let dia = new Date().getDate()
+          let mes = new Date().getMonth()
+          let ano = new Date().getFullYear()
+          let hr = document.getElementById('hora')
+          hr.innerHTML = " Agora São " + hora + " Horas "
+
+          let total = document.getElementById('dia')
+          total.innerHTML = " Hoje E " + dia + "-" + mes + "-" + ano
+
           //aqui e a imagem acima
           let img = document.getElementById('img')
           img.src = "img/logo.png"
-         
-         }
-       </script>
-</body>
 
-</html>
+        }
+      </script>
+    </body>
+
+  </html>
