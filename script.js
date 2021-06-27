@@ -26,11 +26,15 @@ function log() {
   let ns = parseInt(nascimento.value)
   let em = (email.value)
 
-  let dados = [n,
+  let dados = [
+    n,
     s,
     ns,
     em]
-
+  let AnoAtual1 = new Date().getFullYear()
+  if (dados[2] > AnoAtual1) {
+    alert("[ERRO] ANO INVÁLIDO")
+  }
   let all = document.getElementsByClassName('2menu')[0]
   all.style.visibility = "hidden"
 
@@ -44,11 +48,6 @@ function log() {
   e1.innerHTML = " email: " + (dados[3])
 
   let anoAtual = new Date().getFullYear()
-
-  if (dados[2] > anoAtual) {
-    alert("[ERRO] ANO INVÁLIDO")
-    return;
-  }
 
   let totali = (anoAtual - (dados[2]))
 
