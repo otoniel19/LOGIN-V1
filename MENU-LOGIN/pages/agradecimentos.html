@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AGRADECIMENTOS</title>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <style>
+      body {
+        background: url('img/fundo.jpeg');
+        background-repeat: no-repeat;
+        background-size: 4000px;
+      }
+      .menu {
+        background: white;
+        padding: 5px;
+        border-radius: 15px;
+        width: 390px;
+        height: inherit;
+        text-align: center;
+      }
+      #back {
+       float: left;
+       font-size: 150%;
+       border-radius: 15px;
+       padding: 5px;
+       border: none;
+       margin-top: -10px;
+       margin-left: -10px;
+      }
+      #back:hover {
+         transform: scale(1.1)
+      }
+      .btn {
+        background: none;
+        border: none;
+      }
+      .btn:hover {
+        transform: scale(1.1);
+      }
+      #ft1 {
+        text-align: center;
+      }
+    </style>
+</head>
+
+<body onload="ft()">
+  <button id="back"><i class="fas fa-chevron-circle-left"></i></button>
+   <div class="menu">
+    <h1>Agradecimentos Por Gostarem</h1>
+        
+        <br>
+         <button onclick="SAD()" class="btn"><i class="fas fa-star"></i> SAD MEMES</button><br><br>
+         <img id="ft1" src="">
+        
+      </div>
+  <script>
+  function ft() {
+     
+     let ft1 = document.getElementById('ft1')
+     ft1.src = "img/SAD-MEMES.png"
+        
+  }
+     function SAD() {
+       window.open("https://m.facebook.com/profile.php?id=100061434676518&ref=content_filter")
+     }
+    
+    
+    
+  </script>
+     <script src="fontawesome/js/all.js"></script>
+</body>
+
+</html>

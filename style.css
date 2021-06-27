@@ -1,0 +1,83 @@
+body {
+  background: deepskyblue;
+  background: url('img/fundo.jpeg');
+  background-repeat: no-repeat;
+  background-size: 4100px;
+  width: 377px;
+}
+.menu {
+  text-align: center;
+  border-radius: 10px;
+  padding: 50px;
+  background: white;
+  width: 300px;
+  height: 200px;
+  margin-top: -7px;
+  margin-left: -5px;
+}
+.nome {
+  background: snow;
+}
+.info {
+  background: darkblue;
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+  color: white;
+}
+#data {
+  width: 183px;
+}
+#user {
+  font-size: 130%;
+}
+#date {
+  font-size: 130%;
+}
+#btn {
+  font-size: 200%;
+}
+#btn2 {
+  border: none;
+  background: none;
+}
+#btn2:hover {
+  transform: scale(1.1);
+}
+#lock {
+  font-size: 130%;
+}
+#em {
+  font-size: 130%;
+}
+
+
+#pmenu {
+  float: left;
+  text-align: left;
+  margin-left: -51px;
+  margin-top: -51px;
+  font-size: 150%;
+  border-radius: 10px;
+  background: white;
+}
+#pmenu:hover {
+  transform: scale(1.1)
+}
+.all {
+  font-size: 150%;
+  margin-top: -130px;
+  text-align: center;
+  color: black;
+  visibility: visible;
+}
+#voltar1 {
+  background: white;
+  border: none;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 150%;
+}
+#voltar1:hover {
+  transform: scale(1.1)
+}

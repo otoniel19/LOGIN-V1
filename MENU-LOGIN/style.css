@@ -1,0 +1,45 @@
+body {
+  background: deepskyblue;
+  background: url('img/fundo.jpeg');
+  background-repeat: no-repeat;
+  background-size: 4000px;
+  width: 377px;
+}
+.menu {
+  text-align: center;
+  border-radius: 10px;
+  padding: 50px;
+  background: white;
+  width: 300px;
+  height: 200px;
+  margin-top: -7px;
+  margin-left: -5px;
+}
+#back {
+  float: left;
+  font-size: 150%;
+  border-radius: 15px;
+  padding: 5px;
+  border: none;
+  margin-top: -54px;
+  margin-left: -54px;
+}
+#back:hover {
+  transform: scale(1.1)
+}
+#sbr {
+  position: absolute;
+  margin-left: -22px;
+  margin-top:  4px;
+}
+#ir {
+  background: none;
+  border: none;
+}
+#ir:hover {
+  transform: scale(1.1);
+}
+#go {
+  font-size: 300%;
+  visibility: visible;
+}
